@@ -17,19 +17,19 @@ This repo has tests written for a single page Todo application which are written
 
 2. Install Node.js (version 5.5 or later) on the system.  
    _Windows_: Download Node.js from [https://nodejs.org/en/download/](https://nodejs.org/en/download/)  
-   _Linux/MacOS_: Install [Node Version Manager (NVM)](https://github.com/creationix/nvm) and then install Node.js using ```nvm install node```.
+   _Linux/MacOS_: Install [Node Version Manager (NVM)](https://github.com/creationix/nvm) and then install Node.js using ```nvm install node```
 
-3. Please make sure that bower is installed in the system , this can be installed by ```npm install -g bower```
+3. Install SimpleHTTPServer using ```npm install simplehttpserver -g```
 
-4. Install protractor using ```npm install -g protractor```
+4. Please make sure that bower is installed in the system , this can be installed by ```npm install -g bower```
 
-5. Install the webdriver manager using ```webdriver-manager update --standalone```
+5. Install protractor using ```npm install -g protractor```
+
+6. Install the webdriver manager using ```webdriver-manager update --standalone```
 
 ## Running the tests
 
 1. Download the repository on repo
-
-### Run the single page application
 
 2. Change directory to the ```react``` subfolder and start the http server using ```python -m SimpleHTTPServer``` (Or any other HTTP server like apache would do)
 
