@@ -1,13 +1,24 @@
-React-Todo-protractor
+todo-protractor
 =====================
 
-This repo has tests written for a react Todo which are written in protractor
+This repo has tests written for a single page Todo application which are written in protractor
 
-Prerequisites
 
-1. Please make sure that python is installed and be found in the path .
+## Technologies
 
-2. Install nodejs on the system 
+* Protractor
+* Jasmine
+* React
+* Node.js
+* Gulp
+
+## Setup
+
+1. Please make sure that python is installed and be found in the path.
+
+2. Install Node.js (version 5.5 or later) on the system. 
+   _Windows_: Download Node.js from [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+   _Linux/MacOS_: Install Node Version Manager (NVM) using the instructions on 
 
 3. Please make sure that bower is installed in the system , this can be installed by ```npm install -g bower```
 
