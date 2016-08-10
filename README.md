@@ -1,7 +1,8 @@
 todo-protractor
 =====================
 
-This repo has tests written for a single page Todo application which are written in protractor
+This repo has tests written for a single page Todo application which are written in protractor.  
+The test examples in this repo are based on [https://github.com/sri85/React-Todo-protractor](https://github.com/sri85/React-Todo-protractor).
 
 
 ## Technologies
@@ -10,6 +11,9 @@ This repo has tests written for a single page Todo application which are written
 * Jasmine
 * React
 * Node.js
+* SimpleHTTPServer
+* Python
+
 
 ## Setup
 
