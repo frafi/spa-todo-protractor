@@ -2,7 +2,7 @@
 var todoPageObject = function() {
   
   this.get = function() {
-    browser.driver.get('http://localhost:8000/react/#/');//Update the place with the appropriate URL
+    browser.driver.get('http://localhost:8000/examples/polymer/#/');//Update the place with the appropriate URL
   };
   this.logTitle = function() {
     return browser.driver.getTitle();  
