@@ -1,7 +1,7 @@
 todo-protractor
 =====================
 
-This repo has tests written for a single page Todo application which are written in protractor.  
+This repo has tests written for a single page Todo application implemented in various front-end web frameworks such as Angular, Backbone, React and Polymer.  
 The test examples in this repo are based on [https://github.com/sri85/React-Todo-protractor](https://github.com/sri85/React-Todo-protractor).
 
 
