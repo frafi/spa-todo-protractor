@@ -38,11 +38,13 @@ The test examples in this repo are based on [https://github.com/sri85/React-Todo
 2. Start the http server using ```python -m SimpleHTTPServer``` (Or any other HTTP server like apache would do)
 
 3. Once the server is started, navigate to the web folder pertaining to the technology of your choice (see list below) using a web browser.  
-   _Angular 1.x (with JavaScript)_: http://localhost:8000/examples/angularjs  
-   _Angular 2.0 (with TypeScript)_: http://localhost:8000/examples/angular  
-   _Backbone_: http://localhost:8000/examples/backbone  
-   _Polymer_: http://localhost:8000/examples/polymer  
-   _React_: http://localhost:8000/examples/react  
+   | Platform                     | URL                                      |  
+   |------------------------------|------------------------------------------|  
+   | Angular 1.x (with JavaScript)| http://localhost:8000/examples/angularjs |  
+   | Angular 2.0 (with TypeScript)| http://localhost:8000/examples/angular   | 
+   | Backbone                     | http://localhost:8000/examples/backbone  |    
+   | Polymer                      | http://localhost:8000/examples/polymer   | 
+   | React                        | http://localhost:8000/examples/react     |
 
 4. Start the selenium server using ```webdriver-manager start``` 
 
