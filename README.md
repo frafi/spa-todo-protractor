@@ -42,6 +42,10 @@ The test examples in this repo are based on [https://github.com/sri85/React-Todo
 	<table>
 		<tr><th>Framework</th><th>URL</th></tr>
 		<tr><td>Angular 1.x (with JavaScript)</td><td>http://localhost:8000/examples/angularjs</td></tr>
+	   	<tr><td>Angular 2.0 (with TypeScript)</td><td>http://localhost:8000/examples/angular</td></tr>
+	  	<tr><td>Backbone</td><td>http://localhost:8000/examples/backbone</td></tr>  
+	  	<tr><td>Polymer</td><td>http://localhost:8000/examples/polymer</td></tr> 
+	  	<tr><td>React</td><td>http://localhost:8000/examples/react</td></tr>
 	</table>
 
 4. Start the selenium server using ```webdriver-manager start``` 
