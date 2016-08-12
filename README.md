@@ -39,17 +39,10 @@ The test examples in this repo are based on [https://github.com/sri85/React-Todo
 
 3. Once the server is started, navigate to the web folder pertaining to the technology of your choice (see list below) using a web browser.  
 
-
-|             |          Grouping           ||
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
-Content       |          *Long Cell*        ||
-Content       |   **Cell**    |         Cell |
-
-New section   |     More      |         Data |
-And more      | With an escaped '\|'         ||  
-[Prototype table]
-
+	<table>
+		<tr><th>Framework</th><th>URL</th></tr>
+		<tr><td>Angular 1.x (with JavaScript)</td><td>http://localhost:8000/examples/angularjs</td></tr>
+	</table>
 
 4. Start the selenium server using ```webdriver-manager start``` 
 
