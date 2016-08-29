@@ -37,7 +37,7 @@ The test examples in this repo are based on [https://github.com/sri85/React-Todo
 
 2. Install Python using installer from [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
-3. Start the http server using ```python -m SimpleHTTPServer``` (Or any other HTTP server like apache would do)
+3. Start the http server using ```python -m SimpleHTTPServer``` (Or any other HTTP server like apache would do)  
   _Windows_: Run the following command instead ```python -m http.server```
 
 4. Once the server is started, navigate to the web folder pertaining to the technology of your choice (see list below) using a web browser.  
