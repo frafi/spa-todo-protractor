@@ -35,9 +35,11 @@ The test examples in this repo are based on [https://github.com/sri85/React-Todo
 
 1. Download the repository on repo
 
-2. Start the http server using ```python -m SimpleHTTPServer``` (Or any other HTTP server like apache would do)
+2. Install Python using installer from [https://www.python.org/downloads/](https://www.python.org/downloads/)
 
-3. Once the server is started, navigate to the web folder pertaining to the technology of your choice (see list below) using a web browser.  
+3. Start the http server using ```python -m SimpleHTTPServer``` (Or any other HTTP server like apache would do)
+
+4. Once the server is started, navigate to the web folder pertaining to the technology of your choice (see list below) using a web browser.  
 
 	<table>
 		<tr><th>Framework</th><th>URL</th></tr>
@@ -48,8 +50,8 @@ The test examples in this repo are based on [https://github.com/sri85/React-Todo
 	  	<tr><td>React</td><td>http://localhost:8000/examples/react</td></tr>
 	</table>
 
-4. Start the selenium server using ```webdriver-manager start``` 
+5. Start the selenium server using ```webdriver-manager start``` 
 
-5.  Open spec.js and update the ```browser.driver.get('Please update the URL from where the app is accessible');``` with the URL (_e.g. http://localhost:8000/react_) where the app is accessible.
+6.  Open spec.js and update the ```browser.driver.get('Please update the URL from where the app is accessible');``` with the URL (_e.g. http://localhost:8000/react_) where the app is accessible.
 
-6.  Open a command line interface and run the tests using ```protractor conf.js```
+7.  Open a command line interface and run the tests using ```protractor conf.js```
