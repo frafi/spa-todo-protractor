@@ -1,6 +1,6 @@
 var todoPageObject = function() {
   this.getTodoField = function() {
-    return element(by.css("#new-todo"));
+    return element(by.css(".new-todo"));
   };
 
   this.createTodoItem = function(todo) {
@@ -21,7 +21,7 @@ var todoPageObject = function() {
   };
 
   this.getTodoCount = function() {
-    return element(by.id('todo-count')).getText();
+    return element(by.css('.todo-count')).getText();
   };
     
   this.completeTodo = function() {
@@ -48,7 +48,7 @@ var todoPageObject = function() {
 // spec.js
 describe('React Risk assessment app',function(){
   browser.ignoreSynchronization = false;
-  browser.get('http://localhost:8000/examples/angularjs/#/');
+  browser.get('http://localhost:8000/examples/angular2/#/');
     
   beforeEach(function(){
     browser.ignoreSynchronization = true;
@@ -84,7 +84,7 @@ describe('React Risk assessment app',function(){
 
   it('Test the placeholder text of the create text area', function() {
     var todoPage = new todoPageObject();   
-    expect(element(by.id('new-todo')).getAttribute('placeholder')).toEqual('What needs to be done?');
+    expect(element(by.css('.new-todo')).getAttribute('placeholder')).toEqual('What needs to be done?');
     
   }); 
   
@@ -100,7 +100,7 @@ describe('React Risk assessment app',function(){
     for(var i=0;i<=2;i++){
         todoPage.createTodoItem('test'+i); 
     }
-    expect(element(by.id('todo-count')).getText()).toEqual('3 items left');
+    expect(element(by.css('.todo-count')).getText()).toEqual('3 items left');
     for(var i =0;i<=2;i++){
         todoPage.deleteTodo();
     }

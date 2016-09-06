@@ -1,9 +1,9 @@
 exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
 
-  specs: ['spec.js'],
+  specs: ['answers_spec.js'],
   capabilities: {
-	 browserName: 'chrome'
+	 browserName: 'phantomjs'
   },
   jasmineNodeOpts: {
     showColors: true
